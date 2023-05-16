@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.red{
+    background-color: grey;
+    display: flex;
+    padding: 20px 35px;
+    align-items: center;
+    gap: 30px;
+}
+.orange{
+    background-color: orange;
+    display: flex;
+    padding: 20px 35px;
+    align-items: center;
+    gap: 30px;
+}
+.hello{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.red img, .orange img{
+    position: relative;
+    top: 50px;
+}
+.man{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.men{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.men h1{
+    font-size: 40px;
+}
+.man h1{
+    font-size: 40px;
+}
+.man button, .men button{
+    color: white;
+    background-color: transparent;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}

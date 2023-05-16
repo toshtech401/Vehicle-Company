@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.smart{
+    display: flex;
+    justify-content: space-between;
+}
+.tec{
+    display: flex;
+    justify-content: space-between;
+}
+.tec button{
+    border: none;
+    color: blue;
+    font-size: larger;
+    background-color: transparent;
+}
+.deg{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

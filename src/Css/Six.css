@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+}
+.you{
+    display: flex;
+    justify-content: space-between;
+}
+.wow{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.me button{
+    color: blue;
+    font-size: larger;
+    background-color: transparent;
+    border: none;
+}
