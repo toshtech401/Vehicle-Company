@@ -1,28 +1,14 @@
 import './App.css';
-import Marquee from './components/Marquee';
-import Nav from './components/Nav';
-import Body from './components/Body';
-import First from './components/First';
-import Second from './components/Second';
-import Third from './components/Third';
-import Fourth from './components/Fourth';
-import Fifth from './components/Fifth';
-import Six from './components/Sixth';
-import Seven from './components/Seven';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <Marquee />
-      <Nav />
-      <Body />
-      < First />
-      <Second />
-      <Third />
-      <Fourth />
-      <Fifth />
-      <Six />
-      <Seven />
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
