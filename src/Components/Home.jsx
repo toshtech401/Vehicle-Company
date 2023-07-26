@@ -1,11 +1,10 @@
 import React from 'react'
-import one from "./Images/one.webp"
-import two from "./Images/two.jpeg"
-import three from "./Images/three.webp"
-import four from "./Images/four.webp"
-import five from "./Images/five.webp"
-import six from "./Images/six.webp"
-import seven from "./Images/seven.webp"
+import one from "../Components/Images/one.webp"
+import two from "../Components/Images/two/jpeg"
+import three from "../Components/Images/three.webp"
+import four from "../Components/Images/four.webp"
+import five from "../Components/Images/five.webp"
+import seven from "../Components/Images/seven.webp"
 
 const Home = () => {
   return (
